@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "dev.fezzy.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"MouseMixin",
+		"PlayerEntityRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
